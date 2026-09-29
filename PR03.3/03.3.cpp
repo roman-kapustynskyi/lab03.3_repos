@@ -14,8 +14,8 @@ int main()
 	cout << " x = "; cin >> x;
 	   
 
-	if (x <= -1 - R)
-		y = x + 1 + R;
+	if ( x <= -1 - R)
+		y = -(x + 1 + R);
 	else
 		if (-1 - R < x && -1 >= x)
 			y = sqrt(pow(R, 2) - pow(x + 1, 2));
